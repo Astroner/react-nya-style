@@ -21,7 +21,11 @@ Finally, use the render() method.
 import React from 'react'
 import { render } from 'react-dom'
 
-render(<NyaProvider nya={nya}><App /></NyaProvider>, document.querySelector("#root"))
+render((
+	<NyaProvider nya={nya}>
+		<App />
+	</NyaProvider>
+), document.querySelector("#root"))
 ```
 #### Full code
 ```javascript
@@ -29,7 +33,7 @@ import React from 'react'
 import { render } from 'react-dom'
 
 import Style from 'nya-style'
-import { NyaProvider } from 'react-nya-style
+import { NyaProvider } from 'react-nya-style'
 
 import App from './App.jsx'
 
