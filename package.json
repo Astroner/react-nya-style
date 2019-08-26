@@ -1,6 +1,6 @@
 {
   "name": "react-nya-style",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Official package for React to provide Nya",
   "main": "index.js",
   "scripts": {
@@ -12,8 +12,9 @@
   },
   "dependencies":{
     "nya-style": "^1.0.2",
-    "react":"^16.0.0"
+    "react":">16.0.0"
   },
-  "author": "",
+  "author": "Eugine Astroner",
+  "keywords": ["react", "react-nya-style", "nya-style", "JSS", "CSS-in-JS"],
   "license": "ISC"
 }
